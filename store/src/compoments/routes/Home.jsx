@@ -1,5 +1,5 @@
-import Logo from '../assets/logo.png'
-import Carrinho from '../assets/Carrinho.png'
+import Logo from '../../assets/logo.png'
+import Carrinho from '../../assets/Carrinho.png'
 import { IconField } from "primereact/iconfield";
 import { InputIcon } from "primereact/inputicon";
 import { InputText } from "primereact/inputtext";
