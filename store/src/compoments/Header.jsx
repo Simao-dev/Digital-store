@@ -11,7 +11,7 @@ import '/node_modules/primeflex/primeflex.css'
         return (
             <div className='flex justify-content-around' style={{marginTop: "40px"}}>
                 
-                <img style={{width: "253px", height:"44px"}} src={Logo} alt="" />
+                <img style={{width: "253px", height:"44px"}} src={Logo} alt="logo" />
                 
                 <div className="flex gap-3 ">
                     <IconField iconPosition="left">
