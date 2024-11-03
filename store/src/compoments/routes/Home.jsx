@@ -65,7 +65,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div style={{textAlign: "center", margin: "100px 0 100px 0"}}>
+            <div style={{textAlign: "center", margin: "100px 0 100px 0-*/-"}}>
                 <h2>Coleções em destaque</h2>
                 <img src={produtos} alt="" />
             </div>
