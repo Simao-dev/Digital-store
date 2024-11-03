@@ -5,13 +5,14 @@ import { InputIcon } from "primereact/inputicon";
 import { InputText } from "primereact/inputtext";
 import 'primeicons/primeicons.css';
 import { Button } from 'primereact/button';
-import '/node_modules/primeflex/primeflex.css'
+import '/node_modules/primeflex/primeflex.css';
+import { Link } from "react-router-dom";
 
     const Header = () => {
         return (
             <div className='flex justify-content-around' style={{marginTop: "40px"}}>
                 
-                <img style={{width: "253px", height:"44px"}} src={Logo} alt="logo" />
+                <Link to="/home"><img style={{width: "253px", height:"44px"}} src={Logo} alt="logo" /></Link>
                 
                 <div className="flex gap-3 ">
                     <IconField iconPosition="left">
@@ -29,7 +30,10 @@ import '/node_modules/primeflex/primeflex.css'
                 
                 <img src={Carrinho} alt="carrinho de compras" style={{width: "33px", height: "29px"}} />
             </div>
-    );  
+            
+            
+    );
+      
 } 
 
 export default Header;

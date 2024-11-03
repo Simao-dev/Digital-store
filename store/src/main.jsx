@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Router, RouterProvider,} from "react-router-dom";
 import Categorias from './compoments/routes//categorias';
 import Pedidos from './compoments/routes//Pedidos';
@@ -17,26 +19,26 @@ const router = createBrowserRouter ([
     children: [
       {
         path: "/home",
-        element: <Home />,
+        element: <Home />
       },
       {
         path: "/categorias",
-        element: <Categorias />,
+        element: <Categorias />
       },
       {
         path: "/produtos",
-        element: <Produtos />,
+        element: <Produtos />
       },
       {
         path: "/pedidos",
-        element: <Pedidos />,
+        element: <Pedidos />
       },
     ],
   },
 ]);
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
-)
+  </React.StrictMode>
+);

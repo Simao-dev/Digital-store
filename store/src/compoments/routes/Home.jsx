@@ -8,6 +8,9 @@ import fone from '../../assets/fone.png'
 import produtos from '../../assets/produtos.png'
 import { Button } from 'primereact/button';
 import off from '../../assets/off.png'
+import { Link } from 'react-router-dom';
+
+
 const Home = () => {
 
     return (
@@ -65,9 +68,13 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div style={{textAlign: "center", margin: "100px 0 100px 0-*/-"}}>
+            <div style={{textAlign: "center", margin: "100px 0 100px 0"}}>
                 <h2>Coleções em destaque</h2>
                 <img src={produtos} alt="" />
+            </div>
+            <div style={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
+                <h2>Produtos em alta</h2>
+                <Link to="/produtos" style={{fontSize: "20px", color: "#C92071", textDecoration: "none"}}>Ver todos</Link>
             </div>
         </div>
     );
