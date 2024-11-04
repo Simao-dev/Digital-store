@@ -9,6 +9,7 @@ import produtos from '../../assets/produtos.png'
 import { Button } from 'primereact/button';
 import off from '../../assets/off.png'
 import { Link } from 'react-router-dom';
+import prod from '../../assets/prod.png';
 
 
 const Home = () => {
@@ -33,9 +34,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <h2 style={{margin: "50px 80px"}}>Coleções em destaque</h2>
-                <div style={{display: "flex", justifyContent: "center"}}>
+            <div style={{backgroundColor: "#f9f8fe"}}>
+                <h2 style={{margin: "0", padding: "50px 0 0 100px"}}>Coleções em destaque</h2>
+                <div style={{display: "flex", justifyContent: "center", backgroundColor: "#f9f8fe"}}>
                     <div style={{display: "flex",backgroundColor: "#D8E3F2", width: "405px", height: "251px", borderRadius: "8px"}}>
                         <div style={{margin: "30px 0 30px 30px"}}>
                             <img src={off} alt="" />
@@ -68,13 +69,29 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div style={{textAlign: "center", margin: "100px 0 100px 0"}}>
+            <div style={{textAlign: "center", padding: "100px 0 100px 0", backgroundColor: "#f9f8fe"}}>
                 <h2>Coleções em destaque</h2>
                 <img src={produtos} alt="" />
             </div>
-            <div style={{display: "flex", justifyContent: "space-around", alignItems: "center"}}>
+            <div style={{display: "flex", justifyContent: "space-around", alignItems: "center", backgroundColor: "#f9f8fe"}}>
                 <h2>Produtos em alta</h2>
                 <Link to="/produtos" style={{fontSize: "20px", color: "#C92071", textDecoration: "none"}}>Ver todos</Link>
+            </div>
+            <div style={{backgroundColor: "#f9f8fe"}}>
+                <div style={{display: "flex",flexDirection: "column", width: "292px", height: "439px", borderRadius: "8px", margin: "0 50px 0 50px"}}>
+                    <div style={{backgroundColor: "white", width: "292px", height: "321px"}}>
+                        <img  style={{width: "96px", height: "32px", margin: "20px 0 0 20px" }} src={off} alt="" />
+                        <img style={{border: "20px 0 0 20px"}} src={prod} alt="" />
+                    </div>
+                    <div>
+                        <p>Tenis</p>
+                        <p style={{ fontSize: "25px", margin: "0"}}>K-Swiss V8 - Masculino</p>
+                        <div style={{display: "flex"}}>
+                            <p><del>$200</del></p>
+                            <p style={{fontWeight: "bold", marginLeft: "20px"}}>$100</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
