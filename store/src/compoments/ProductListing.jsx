@@ -1,20 +1,64 @@
-import React from 'react';
+import imagemProduto1 from '../assets/carde.png'
+import imagemProduto2 from '../assets/carde1.png'
 
-const data = [
+
+const itens = [
   {
-    imagem1: require('../../assets/off.png'),
-    imagem2: require('../../assets/prod.png'),
-    prod: "Tênis",
-    descricao: "K-Swiss V8 - Masculino",
-    de: "$200",
-    por: "$100"
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto1,
+    preco: 200,
+    precoComDesconto: 100
   },
   {
-    imagem1: require('../../assets/off.png'),
-    imagem2: require('../../assets/prod.png'),
-    prod: "Tênis",
-    descricao: "K-Swiss V8 - Masculino",
-    de: "$200",
-    por: "$100"
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto1,
+    preco: 200,
+    precoComDesconto: 100
+  },
+  {
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto2,
+    preco: 200,
+    precoComDesconto: 100
+  },
+  {
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto2,
+    preco: 200,
+    precoComDesconto: 100
+  },
+  {
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto2,
+    preco: 200,
+    precoComDesconto: 100
+  },
+  {
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto2,
+    preco: 200,
+    precoComDesconto: 100
+  },
+  {
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto2,
+    preco: 200,
+    precoComDesconto: 100
+  },
+  {
+    nome: 'Tênis',
+    tipo: 'K-Swiss V8 - Masculino',
+    imagem: imagemProduto2,
+    preco: 200,
+    precoComDesconto: 100
   },
 ];
+
+export default itens;

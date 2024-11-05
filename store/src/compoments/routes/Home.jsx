@@ -9,8 +9,8 @@ import produtos from '../../assets/produtos.png'
 import { Button } from 'primereact/button';
 import off from '../../assets/off.png'
 import { Link } from 'react-router-dom';
-import prod from '../../assets/prod.png';
-
+import itens from '../ProductListing';
+import tenisC from '../../assets/tenisC.png'
 
 const Home = () => {
 
@@ -71,26 +71,40 @@ const Home = () => {
             </div>
             <div style={{textAlign: "center", padding: "100px 0 100px 0", backgroundColor: "#f9f8fe"}}>
                 <h2>Coleções em destaque</h2>
-                <img src={produtos} alt="" />
+                <Link to="/produtos"><img src={produtos} alt="" /></Link>
             </div>
             <div style={{display: "flex", justifyContent: "space-around", alignItems: "center", backgroundColor: "#f9f8fe"}}>
                 <h2>Produtos em alta</h2>
                 <Link to="/produtos" style={{fontSize: "20px", color: "#C92071", textDecoration: "none"}}>Ver todos</Link>
             </div>
-            <div style={{backgroundColor: "#f9f8fe"}}>
-                <div style={{display: "flex",flexDirection: "column", width: "292px", height: "439px", borderRadius: "8px", margin: "0 50px 0 50px"}}>
-                    <div style={{backgroundColor: "white", width: "292px", height: "321px"}}>
-                        <img  style={{width: "96px", height: "32px", margin: "20px 0 0 20px" }} src={off} alt="" />
-                        <img style={{border: "20px 0 0 20px"}} src={prod} alt="" />
-                    </div>
-                    <div>
-                        <p>Tenis</p>
-                        <p style={{ fontSize: "25px", margin: "0"}}>K-Swiss V8 - Masculino</p>
-                        <div style={{display: "flex"}}>
-                            <p><del>$200</del></p>
-                            <p style={{fontWeight: "bold", marginLeft: "20px"}}>$100</p>
+            <div style={{backgroundColor: "#f9f8fe", paddingTop: "50px"}}>
+                <div style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap"}}>
+                {itens.map((itens) => (
+                    <div style={{display: "flex", flexDirection: "column"}} key={itens.nome}>
+                        <Link to="/produtos"><img style={{width: "400px", height: "410px"}} src={itens.imagem} alt={itens.nome} /></Link>
+                        <div>
+                            <p style={{color: "#8F8F8F"}}>{itens.nome}</p>
+                            <p style={{color: "#474747", fontSize: "24px", margin: "5px"}}>{itens.tipo}</p>
+                            <div style={{display: "flex"}}>
+                                <p style={{color: "#8F8F8F", marginRight: "8px", fontSize: "24px"}}><del>${itens.preco.toFixed(2)}</del></p>
+                                <p style={{ fontWeight: "bold", fontSize: "24px", color: "#1F1F1F"}}>${itens.precoComDesconto.toFixed(2)}</p>
+                            </div>
                         </div>
                     </div>
+                    ))}
+                </div>
+            </div>
+            <div style={{display: "flex", justifyContent: "space-around", margin: "100px 0 50px 0"}}>
+                <div>
+                    <div>
+                        <img src={tenisC} alt="" />
+                    </div>
+                </div>
+                <div style={{width: "596px", height: "341px"}}>
+                    <p style={{color: "#C92071", fontWeight: "bold"}}>Oferta especial</p>
+                    <h2 style={{fontSize: "50px", color: "#474747"}}>Air Jordan edição de colecionador</h2>
+                    <p style={{fontSize: "24px", color: "#474747"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                    <Button className='border-round-xl' style={{backgroundColor: "#C92071", width: "200px", height: "40px", border: "none", color: "white"}} label="Ver Ofertas" />
                 </div>
             </div>
         </div>
