@@ -23,7 +23,7 @@ const Home = () => {
                         <h2 style={{ fontSize: "64px", margin: "0"}}>Queima de estoque Nike 🔥</h2>
                         <p style={{color: "#474747", fontSize: "24px"}}>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
                         <div className="card flex">
-                            <Button className='border-round-xl' style={{backgroundColor: "#C92071", width: "240px", height: "48px", border: "none", color: "white"}} label="Ver Ofertas" />
+                            <Link to= "/produtos"><Button className='border-round-xl' style={{backgroundColor: "#C92071", width: "240px", height: "48px", border: "none", color: "white"}} label="Ver Ofertas" /></Link>
                         </div>
                     </div>
                     <div>
@@ -41,7 +41,7 @@ const Home = () => {
                         <div style={{margin: "30px 0 30px 30px"}}>
                             <img src={off} alt="" />
                             <h2>Novo drop Supreme</h2>
-                            <Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" />
+                            <Link to="/produtos"><Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" /></Link>
                         </div>
                         <div  style={{backgroundColor: "#D8E3F2", height: "251px", borderRadius: "8px"}}>
                             <img src={camisa} alt="" />
@@ -51,7 +51,7 @@ const Home = () => {
                         <div style={{margin: "30px 0 30px 30px"}}>
                             <img src={off} alt="" />
                             <h2>Coleção Adidas</h2>
-                            <Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" />
+                            <Link to="/produtos"><Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" /></Link>
                         </div>
                         <div  style={{backgroundColor: "#D8E3F2", height: "251px", borderRadius: "8px"}}>
                             <img src={tenisA} alt="" />
@@ -61,7 +61,7 @@ const Home = () => {
                         <div style={{margin: "30px 0 30px 30px"}}>
                             <img src={off} alt="" />
                             <h2>Novo Beats Bass</h2>
-                            <Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" />
+                            <Link to="/produtos"><Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" /></Link>
                         </div>
                         <div  style={{backgroundColor: "#D8E3F2", height: "251px", borderRadius: "8px"}}>
                             <img src={fone} alt="" />
@@ -104,7 +104,7 @@ const Home = () => {
                     <p style={{color: "#C92071", fontWeight: "bold"}}>Oferta especial</p>
                     <h2 style={{fontSize: "50px", color: "#474747"}}>Air Jordan edição de colecionador</h2>
                     <p style={{fontSize: "24px", color: "#474747"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                    <Button className='border-round-xl' style={{backgroundColor: "#C92071", width: "200px", height: "40px", border: "none", color: "white"}} label="Ver Ofertas" />
+                    <Link to="/produtos"><Button className='border-round-xl' style={{backgroundColor: "#C92071", width: "200px", height: "40px", border: "none", color: "white"}} label="Ver Ofertas" /></Link>
                 </div>
             </div>
         </div>
