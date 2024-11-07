@@ -4,6 +4,7 @@ import imagem2 from '../../assets/compomentsroutesProdutos/imagem2.png';
 import imagem3 from '../../assets/compomentsroutesProdutos/imagem3.png';
 import imagem4 from '../../assets/compomentsroutesProdutos/imagem4.png';
 import imagem5 from '../../assets/compomentsroutesProdutos/imagem5.png';
+import '../carrossel/carrosel.css'
 import { PrimeIcons } from 'primereact/api'
 
 
@@ -23,6 +24,9 @@ const Carrossel = () => {
   
     return (
       <div>   
+        <div className="Caminho">
+          <p>home / Produtos / Tênis / Nike / Tênis Nike Revolution 6 Next Nature Masculino</p>
+        </div>
         <div className="ProdutoContainer">
           <div className="ImagemCarossel">
             <button onClick={handlePrevImage}><i className="pi pi-angle-left"></i></button>

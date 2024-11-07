@@ -1,0 +1,65 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.ProdRelacionados {
+    background-color: #f9f8fe;
+    padding-top: 50px;
+    display: flex;
+    
+}
+
+.ProdFilho {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.LinkProd {
+    width: 400px;
+    height: 410px;
+}
+
+.ItemNome {
+    color: var(--light-gray);
+}
+
+.ItemTipo{
+    color: var(--dark-gray-2);
+    font-size: 24px;
+    margin: 5px;
+}
+
+.ContPreco{
+    display: flex;
+}
+
+.PrecoSemDes {
+    color: #8F8F8F;
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.PrecoComDes {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--dark-gray);
+}

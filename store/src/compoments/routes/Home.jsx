@@ -9,8 +9,8 @@ import produtos from '../../assets/produtos.png'
 import { Button } from 'primereact/button';
 import off from '../../assets/off.png'
 import { Link } from 'react-router-dom';
-import itens from '../ProductListing';
 import tenisC from '../../assets/tenisC.png'
+import Array from '../ProductListing/ProductListing.jsx';
 
 const Home = () => {
 
@@ -77,23 +77,7 @@ const Home = () => {
                 <h2>Produtos em alta</h2>
                 <Link to="/produtos" style={{fontSize: "20px", color: "#C92071", textDecoration: "none"}}>Ver todos</Link>
             </div>
-            <div style={{backgroundColor: "#f9f8fe", paddingTop: "50px"}}>
-                <div style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap"}}>
-                {itens.map((itens) => (
-                    <div style={{display: "flex", flexDirection: "column"}} key={itens.nome}>
-                        <Link to="/produtos"><img style={{width: "400px", height: "410px"}} src={itens.imagem} alt={itens.nome} /></Link>
-                        <div>
-                            <p style={{color: "#8F8F8F"}}>{itens.nome}</p>
-                            <p style={{color: "#474747", fontSize: "24px", margin: "5px"}}>{itens.tipo}</p>
-                            <div style={{display: "flex"}}>
-                                <p style={{color: "#8F8F8F", marginRight: "8px", fontSize: "24px"}}><del>${itens.preco.toFixed(2)}</del></p>
-                                <p style={{ fontWeight: "bold", fontSize: "24px", color: "#1F1F1F"}}>${itens.precoComDesconto.toFixed(2)}</p>
-                            </div>
-                        </div>
-                    </div>
-                    ))}
-                </div>
-            </div>
+            <Array/>
             <div style={{display: "flex", justifyContent: "space-around", margin: "100px 0 50px 0"}}>
                 <div>
                     <div>

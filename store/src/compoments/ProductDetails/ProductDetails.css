@@ -18,14 +18,14 @@
 /* estilo informações / imagens */
 
 .Main {
-    display: flex;
     background-color: #f9f8fe;
-    justify-content: space-around;
     padding: 50px
 }
 
 .Info {
-    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
 }
 
 .Info h2 {
@@ -49,7 +49,7 @@
 }
 
 .Descri {
-    margin: 5px 0;
+    padding: 5px 0;
     color: var(--light-gray);
 }
 
@@ -197,48 +197,4 @@
 .BotaoComprar button:hover {
     background-color: #e29c0f;
     box-shadow: 1px 5px 5px #5f5e5e;
-}
-
-.ProdutoContainer .ImagemCarossel {
-    position: relative;
-}
-
-.ProdutoContainer .ImagemCarossel button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-    border: none;
-    background-color: #ffffff00;
-    font-size: 30px;
-}
-
-.ProdutoContainer .ImagemCarossel button:first-child {
-    left: 10px;
-}
-
-.ProdutoContainer .ImagemCarossel button:last-child {
-    right: 10px; 
-}
-
-.Miniaturas {
-    display: flex;
-    justify-content: space-between;
-}
-
-.Miniaturas button {
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
-
-.Miniaturas button img{
-    width: 117px;
-    height: 96px;
-    border-radius: 5px;
-    transform: 1s;
-}
-
-.Miniaturas button img:hover{
-    border: 2px solid var(--primary);
 }

@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Router, RouterProvider,} from "react-router-dom";
 import Categorias from './compoments/routes//categorias';
 import Pedidos from './compoments/routes//Pedidos';
-import Produtos from '../src/pages/ProductViewPage/ProductViewPage.jsx';
+import Produtos from './pages/ProductViewPage.jsx';
 import ErrorPage from './compoments/routes/Errorpage.jsx';
 import Home from './compoments/routes/Home.jsx';
   

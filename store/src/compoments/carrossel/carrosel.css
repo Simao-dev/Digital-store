@@ -1,0 +1,70 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.Caminho{
+    width: 530px;
+}
+
+.ProdutoContainer {
+    width: 700px;
+
+}
+
+.ProdutoContainer .ImagemCarossel {
+    position: relative;
+}
+
+.ProdutoContainer .ImagemCarossel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border: none;
+    background-color: #ffffff00;
+    font-size: 30px;
+}
+
+.ProdutoContainer .ImagemCarossel button:first-child {
+    left: 10px;
+}
+
+.ProdutoContainer .ImagemCarossel button:last-child {
+    right: 10px; 
+}
+
+.Miniaturas {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.Miniaturas button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.Miniaturas button img{
+    width: 117px;
+    height: 96px;
+    border-radius: 5px;
+    transform: 1s;
+}
+
+.Miniaturas button img:hover{
+    border: 2px solid var(--primary);
+}
