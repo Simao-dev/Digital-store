@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import imagem1 from '../assets/compomentsroutesProdutos/imagem1.png';
-import imagem2 from '../assets/compomentsroutesProdutos/imagem2.png';
-import imagem3 from '../assets/compomentsroutesProdutos/imagem3.png';
-import imagem4 from '../assets/compomentsroutesProdutos/imagem4.png';
-import imagem5 from '../assets/compomentsroutesProdutos/imagem5.png';
+import imagem1 from '../../assets/compomentsroutesProdutos/imagem1.png';
+import imagem2 from '../../assets/compomentsroutesProdutos/imagem2.png';
+import imagem3 from '../../assets/compomentsroutesProdutos/imagem3.png';
+import imagem4 from '../../assets/compomentsroutesProdutos/imagem4.png';
+import imagem5 from '../../assets/compomentsroutesProdutos/imagem5.png';
+import { PrimeIcons } from 'primereact/api'
 
 
 
-const Produtos = () => {
+const Carrossel = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const images = [imagem1, imagem2, imagem3, imagem4, imagem5];
   
@@ -22,29 +23,26 @@ const Produtos = () => {
   
     return (
       <div>   
-  
-        <div className="product-container">
-          <div className="image-carousel">
-            <img src={images[currentImageIndex]} alt="Product Image" />
-            <button onClick={handlePrevImage}>Anterior</button>
-            <button onClick={handleNextImage}>Próximo</button>
+        <div className="ProdutoContainer">
+          <div className="ImagemCarossel">
+            <button onClick={handlePrevImage}><i className="pi pi-angle-left"></i></button>
+            <img src={images[currentImageIndex]} alt="imagem dos produtos" />
+            <button onClick={handleNextImage}><i className="pi pi-angle-right"></i></button>
           </div>
-          <div className="product-details">
-            <h2>Tênis Nike Revolution 6 Next Nature Masculino</h2>
-            <p>Casual | Nike | REF:38416711</p>
-            <div className="ratings">
-              <img src={Stars} alt="Ratings" />
-              <img src={notas} alt="Ratings" />
+          <div className="Miniaturas">
+            {images.map((image, index) => (
+                <button
+                key={index}
+                onClick={() => handleImageClick(index)}
+                className={index === currentImageIndex ? 'active' : ''}
+                >
+                <img src={image} alt={`Thumbnail ${index}`} />
+                </button>
+                ))}
             </div>
-            <div className="price">
-              <p>R$ 219,00</p>
-              <del><p>219,00</p></del>
-            </div>
-            {/* ... other product details ... */}
           </div>
         </div>
-      </div>
     );
   };
   
-  export default Produtos;
+  export default Carrossel;

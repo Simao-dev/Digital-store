@@ -3,6 +3,9 @@ import imagem1 from '../../assets/compomentsroutesProdutos/imagem1.png'
 import Stars from '../../assets/compomentsroutesProdutos/Stars.png'
 import notas from '../../assets/compomentsroutesProdutos/notas.png'
 import './ProductViewPage.css'
+import Carrossel from "./Carrossel";
+
+
 
 const Produtos = () => {
     return (
@@ -10,7 +13,7 @@ const Produtos = () => {
             <div className="Main">
                 <div>
                     <p>Home / Produtos / Tênis / Nike / Tênis Nike Revolution 6 Next Nature Masculino </p>
-                    <img src={imagem1} alt="" />
+                    <Carrossel />
                 </div>
                 <div className= "Info">
                     <h2>Tênis Nike Revolution 6 Next Nature Masculino</h2>
