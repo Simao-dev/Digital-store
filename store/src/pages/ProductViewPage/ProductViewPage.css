@@ -1,0 +1,200 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+/* estilo informações / imagens */
+
+.Main {
+    display: flex;
+    background-color: #f9f8fe;
+    justify-content: space-around;
+    padding: 50px
+}
+
+.Info {
+    width: 900px;
+}
+
+.Info h2 {
+    font-size: 65px;
+}
+
+.Avaliacoes .Estrela{
+    padding-right: 10px ;
+}
+
+.MainPreco {
+    display: flex;
+    align-items: center;
+}
+
+.PrecoB {
+    font-weight: bold;
+    padding-right: 10px;
+    font-size: 25px;
+    margin: 0;
+}
+
+.Descri {
+    margin: 5px 0;
+    color: var(--light-gray);
+}
+
+/* estilo seletor de tamanhos */
+
+.MainTamanho {
+    display: flex;
+    text-align: center;
+}
+
+.Tamanho1  button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--light-gray-2);
+    border-radius: 8px;
+    align-items: center;
+    margin: 5px 5px 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+    transform: 1s;
+}
+
+.Tamanho2 button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--light-gray-2);
+    border-radius: 8px;
+    align-items: center;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: 1s;
+}
+
+.Tamanho3 button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--light-gray-2);
+    border-radius: 8px;
+    align-items: center;
+    margin: 5px 0px 5px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transform: 1s;
+}
+
+.Tamanho1 button:hover {
+    background-color: var(--primary);
+}
+
+.Tamanho2 button:hover {
+    background-color: var(--primary);
+}
+
+.Tamanho3 button:hover {
+    background-color: var(--primary);
+}
+
+/* estilo seletor de cores */
+
+.Cores {
+    margin: 5px 0;
+    color: var(--light-gray);
+}
+
+.MainCores {
+    display: flex;
+}
+
+.SelectCores1 button{
+    width: 31px;
+    height: 31px;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #6FEEFF;
+    border: none;
+    cursor: pointer;
+    transform: 1s;
+}
+
+.SelectCores2 button {
+    width: 31px;
+    height: 31px;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #FF6969;
+    border: none;
+    cursor: pointer;
+    transform: 1s;
+}
+
+.SelectCores3 button {
+    width: 31px;
+    height: 31px;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #5E5E5E;
+    border: none;
+    cursor: pointer;
+    transform: 1s;
+}
+
+.SelectCores4 button {
+    width: 31px;
+    height: 31px;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #6D70B7;
+    border: none;
+    cursor: pointer;
+    transform: 1s;
+}
+
+.SelectCores1 button:hover {
+    border: 2px solid var(--primary);
+}
+
+.SelectCores2 button:hover {
+    border: 2px solid var(--primary);
+}
+
+.SelectCores3 button:hover {
+    border: 2px solid var(--primary);
+}
+
+.SelectCores4 button:hover {
+    border: 2px solid var(--primary);
+}
+
+/* estilo botão comprar */
+
+.BotaoComprar button{
+    margin: 20px 0;
+    width: 220px;
+    height: 48px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #FFB31F;
+    color: var(--white);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.BotaoComprar button:hover {
+    background-color: #e29c0f;
+    box-shadow: 1px 5px 5px #5f5e5e;
+}
