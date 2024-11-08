@@ -63,17 +63,17 @@ const Array = () =>{
       },
     ];
     return (
-      <div style={{backgroundColor: "#f9f8fe", paddingTop: "50px"}}>
-      <div style={{display: "flex", justifyContent: "space-evenly", flexWrap: "wrap"}}>
+      <div  className="ProdRelacionados">
+      <div className="ProdFilho">
       {itens.map((itens) => (
-          <div style={{display: "flex", flexDirection: "column"}} key={itens.nome}>
-              <Link to="/produtos"><img style={{width: "400px", height: "410px"}} src={itens.imagem} alt={itens.nome} /></Link>
+          <div className="Container" key={itens.nome}>
+              <Link to="/produtos" className="LinkProd"><img src={itens.imagem} alt={itens.nome} /></Link>
               <div>
-                  <p style={{color: "#8F8F8F"}}>{itens.nome}</p>
-                  <p style={{color: "#474747", fontSize: "24px", margin: "5px"}}>{itens.tipo}</p>
-                  <div style={{display: "flex"}}>
-                      <p style={{color: "#8F8F8F", marginRight: "8px", fontSize: "24px"}}><del>${itens.preco.toFixed(2)}</del></p>
-                      <p style={{ fontWeight: "bold", fontSize: "24px", color: "#1F1F1F"}}>${itens.precoComDesconto.toFixed(2)}</p>
+                  <p className="ItemNome">{itens.nome}</p>
+                  <p className="ItemTipo" >{itens.tipo}</p>
+                  <div className="ContPreco">
+                      <p className="PrecoSemDes"><del>${itens.preco.toFixed(2)}</del></p>
+                      <p className="PrecoComDes">${itens.precoComDesconto.toFixed(2)}</p>
                   </div>
               </div>
           </div>

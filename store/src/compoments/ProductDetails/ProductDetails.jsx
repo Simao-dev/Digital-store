@@ -4,6 +4,7 @@ import notas from '../../assets/compomentsroutesProdutos/notas.png'
 import '../ProductDetails/ProductDetails.css'
 import Array from "../ProductListing/ProductListing.jsx";
 import Carrossel from "../carrossel/carrossel.jsx";
+import Vermais from "../VerMais/VerMais.jsx"
 
 
 
@@ -51,7 +52,7 @@ const ProductDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div >
+                        <div>
                             <p className="Cores">Cores</p>
                             <div className="MainCores">
                                 <div className="SelectCores1">
@@ -73,6 +74,9 @@ const ProductDetails = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <Vermais />
             </div>
             <div>
                 <Array/>

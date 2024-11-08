@@ -11,6 +11,7 @@ import off from '../../assets/off.png'
 import { Link } from 'react-router-dom';
 import tenisC from '../../assets/tenisC.png'
 import Array from '../ProductListing/ProductListing.jsx';
+import Vermais from '../VerMais/VerMais.jsx';
 
 const Home = () => {
 
@@ -73,11 +74,8 @@ const Home = () => {
                 <h2>Coleções em destaque</h2>
                 <Link to="/produtos"><img src={produtos} alt="" /></Link>
             </div>
-            <div style={{display: "flex", justifyContent: "space-around", alignItems: "center", backgroundColor: "#f9f8fe"}}>
-                <h2>Produtos em alta</h2>
-                <Link to="/produtos" style={{fontSize: "20px", color: "#C92071", textDecoration: "none"}}>Ver todos</Link>
-            </div>
-            <Array/>
+            <Vermais />
+            <Array />
             <div style={{display: "flex", justifyContent: "space-around", margin: "100px 0 50px 0"}}>
                 <div>
                     <div>

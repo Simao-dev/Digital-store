@@ -1,0 +1,80 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.Footermain {
+    background-color: var(--dark-gray);
+    display: flex;
+    justify-content: space-around;
+    color: var(--white);
+    height: 400px;
+}
+
+.footerlogo {
+    margin-top: 40px;
+    width: 450px;
+}
+
+.footerlogo img {
+    margin-bottom: 40px;
+}
+
+.MainRedes {
+    display: flex;
+}
+
+.MainRedes a {
+    color: var(--white);
+    margin: 10px;
+}
+
+.MainInforomações {
+    margin-top: 40px;
+    width: 250px;
+}
+
+.MainInforomações h3 {
+    margin-bottom: 40px;
+}
+
+.MainCategorias {
+    margin-top: 40px;
+    width: 250px;
+}
+
+.MainCategorias h3 {
+    margin-bottom: 40px;
+}
+
+.MainContato{
+    margin-top: 40px;
+    width: 250px;  
+}
+
+.MainContato h3 {
+    margin-bottom: 40px;
+}
+
+.Digital {
+    background-color: var(--dark-gray);
+    color: var(--white);
+    text-align: center;
+}
+
+.Digital p {
+    margin: 0;
+    padding: 20px;
+}

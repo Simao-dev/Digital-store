@@ -1,7 +1,7 @@
-import Header from "./compoments/Header";
+import Header from "../src/compoments/Header/Header";
 import { Outlet } from "react-router-dom";
-import Navbar from "./compoments/Navbar";
-import Footer from "./compoments/Footer";
+import Navbar from "../src/compoments/Navbar/Navbar";
+import Footer from "../src/compoments/Footer/Footer";
 
 const App = () => {
     return (

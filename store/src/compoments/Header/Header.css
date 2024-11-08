@@ -1,0 +1,69 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.ContainerHeader {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 40px 0;
+    align-items: center;
+}
+
+.ContFi img {
+    width: 253px;
+    height: 44px;
+}
+
+.Mainbuscar {
+    display: flex;
+    gap: 10px;
+}
+
+.BoxPesquisa {
+    width: 559px;
+    height: 60px;
+    font-size: 25px;
+    padding-left: 20px;
+    background-color: rgb(71 71 71 / 4%);
+    border-radius: 8px;
+    border: none;
+}
+
+.Cadast p {
+    text-decoration: underline;
+    font-size: 16px;
+    color: var(--dark-gray-2);
+}
+
+.BtnOfertas {
+    display: flex;
+    justify-content: center;
+}
+
+.BtnOfertas button {
+    background-color: var(--primary);
+    width: 144px;
+    height: 40px;
+    border: none;
+    color: var(--white);
+    border-radius: 8px;
+}
+
+.carrinho {
+    width: 33px;
+    height: 29px;
+}
