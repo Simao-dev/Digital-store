@@ -6,9 +6,10 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Router, RouterProvider,} from "react-router-dom";
 import Categorias from './compoments/routes//categorias';
 import Pedidos from './compoments/routes//Pedidos';
-import Produtos from './pages/ProductViewPage.jsx';
+import Produtos from './compoments/ProductOptions/ProductOptions.jsx';
 import ErrorPage from './compoments/routes/Errorpage.jsx';
 import Home from './compoments/routes/Home.jsx';
+import Options from './compoments/ProductOptions/ProductOptions.jsx'
   
 
 const router = createBrowserRouter ([
@@ -33,6 +34,11 @@ const router = createBrowserRouter ([
         path: "/pedidos",
         element: <Pedidos />
       },
+      {
+        path: "/options",
+        element: <Options />
+      },
+
     ],
   },
 ]);

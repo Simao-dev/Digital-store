@@ -30,7 +30,16 @@
     border: none;
 }
 
-.LinksHome:hover {
-    color: var(--primary);
-    border-bottom: 2px solid var(--primary);
+.LinksHome.active {
+    position: relative;
+} 
+
+.LinksHome.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary);
 }
