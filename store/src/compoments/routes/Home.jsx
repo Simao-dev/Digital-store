@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 import tenisC from '../../assets/tenisC.png'
 import Array from '../ProductListing/ProductListing.jsx';
 import Vermais from '../VerMais/VerMais.jsx';
-
+import Colecao from '../ColecaoDestaque/ColecaoDestaque.jsx';
 const Home = () => {
 
     return (
@@ -35,41 +35,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div style={{backgroundColor: "#f9f8fe"}}>
-                <h2 style={{margin: "0", padding: "50px 0 0 100px"}}>Coleções em destaque</h2>
-                <div style={{display: "flex", justifyContent: "center", backgroundColor: "#f9f8fe"}}>
-                    <div style={{display: "flex",backgroundColor: "#D8E3F2", width: "405px", height: "251px", borderRadius: "8px"}}>
-                        <div style={{margin: "30px 0 30px 30px"}}>
-                            <img src={off} alt="" />
-                            <h2>Novo drop Supreme</h2>
-                            <Link to="/produtos"><Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" /></Link>
-                        </div>
-                        <div  style={{backgroundColor: "#D8E3F2", height: "251px", borderRadius: "8px"}}>
-                            <img src={camisa} alt="" />
-                        </div>
-                    </div>
-                    <div style={{display: "flex",backgroundColor: "#D8E3F2", width: "405px", height: "251px", borderRadius: "8px", margin: "0 50px 0 50px"}}>
-                        <div style={{margin: "30px 0 30px 30px"}}>
-                            <img src={off} alt="" />
-                            <h2>Coleção Adidas</h2>
-                            <Link to="/produtos"><Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" /></Link>
-                        </div>
-                        <div  style={{backgroundColor: "#D8E3F2", height: "251px", borderRadius: "8px"}}>
-                            <img src={tenisA} alt="" />
-                        </div>
-                    </div>
-                    <div style={{display: "flex",backgroundColor: "#D8E3F2", width: "405px", height: "251px", borderRadius: "8px"}}>
-                        <div style={{margin: "30px 0 30px 30px"}}>
-                            <img src={off} alt="" />
-                            <h2>Novo Beats Bass</h2>
-                            <Link to="/produtos"><Button className='border-round-xl' style={{backgroundColor: "white", width: "148px", height: "48px", border: "none", color: "#C92071", fontWeight: "bold"}} label="Comprar" /></Link>
-                        </div>
-                        <div  style={{backgroundColor: "#D8E3F2", height: "251px", borderRadius: "8px"}}>
-                            <img src={fone} alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Colecao />
             <div style={{textAlign: "center", padding: "100px 0 100px 0", backgroundColor: "#f9f8fe"}}>
                 <h2>Coleções em destaque</h2>
                 <Link to="/produtos"><img src={produtos} alt="" /></Link>

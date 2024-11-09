@@ -1,0 +1,59 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.Principal {
+    background-color: #f9f8fe;
+}
+
+.Destaque {
+    margin: 0;
+    padding: 50px 0px 30px 120px;;
+}
+.ColecaoMain {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f8fe;
+}
+
+.ColecaoCard1 {
+    display: flex;
+    background-color: #D8E3F2;
+    width: 405px;
+    height: 251px;
+    border-radius: 8px;
+}
+
+.CardFilho {
+    margin: 30px 0 30px 30px;
+}
+
+.CardFilho button {
+    background-color: var(--white);
+    width: 148px;
+    height: 48px;
+    border: none;
+    color: var(--primary);
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.CamImg {
+    background-color: #D8E3F2;
+    height: 251px;
+    border-radius: 8px;
+}
+

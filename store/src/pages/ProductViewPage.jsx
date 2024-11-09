@@ -1,5 +1,4 @@
 import React from "react";
-import Carrossel from "../compoments/carrossel/carrossel.jsx";
 import ProductDetails from "../compoments/ProductDetails/ProductDetails.jsx";
 
 
