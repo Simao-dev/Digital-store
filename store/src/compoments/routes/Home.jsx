@@ -1,15 +1,11 @@
-import Tenis from '../../assets/White-Sneakers-PNG-Clipart 1.png'
-import Ornament from '../../assets/Ornament 11.png'
+import Tenis from '../../assets/White-Sneakers-PNG-Clipart 1.png';
+import Ornament from '../../assets/Ornament 11.png';
 import React from "react";
-import '/node_modules/primeflex/primeflex.css'
-import camisa from '../../assets/camisa.png'
-import tenisA from '../../assets/tenisA.png'
-import fone from '../../assets/fone.png'
-import produtos from '../../assets/produtos.png'
+import '/node_modules/primeflex/primeflex.css';
+import produtos from '../../assets/produtos.png';
 import { Button } from 'primereact/button';
-import off from '../../assets/off.png'
 import { Link } from 'react-router-dom';
-import tenisC from '../../assets/tenisC.png'
+import tenisC from '../../assets/tenisC.png';
 import Array from '../ProductListing/ProductListing.jsx';
 import Vermais from '../VerMais/VerMais.jsx';
 import Colecao from '../ColecaoDestaque/ColecaoDestaque.jsx';

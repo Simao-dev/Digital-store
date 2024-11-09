@@ -4,8 +4,7 @@ import imagem2 from '../../assets/compomentsroutesProdutos/imagem2.png';
 import imagem3 from '../../assets/compomentsroutesProdutos/imagem3.png';
 import imagem4 from '../../assets/compomentsroutesProdutos/imagem4.png';
 import imagem5 from '../../assets/compomentsroutesProdutos/imagem5.png';
-import '../carrossel/carrosel.css'
-import { PrimeIcons } from 'primereact/api'
+import '../carrossel/carrosel.css';
 
 
 

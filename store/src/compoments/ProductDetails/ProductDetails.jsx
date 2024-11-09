@@ -1,10 +1,10 @@
 import React from "react";
-import Stars from '../../assets/compomentsroutesProdutos/Stars.png'
-import notas from '../../assets/compomentsroutesProdutos/notas.png'
-import '../ProductDetails/ProductDetails.css'
+import Stars from '../../assets/compomentsroutesProdutos/Stars.png';
+import notas from '../../assets/compomentsroutesProdutos/notas.png';
+import '../ProductDetails/ProductDetails.css';
 import Array from "../ProductListing/ProductListing.jsx";
 import Carrossel from "../carrossel/carrossel.jsx";
-import Vermais from "../VerMais/VerMais.jsx"
+import Vermais from "../VerMais/VerMais.jsx";
 
 
 

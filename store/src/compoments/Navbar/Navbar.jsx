@@ -1,6 +1,6 @@
 import { Link, useLocation} from "react-router-dom";
-import '/node_modules/primeflex/primeflex.css'
-import "../Navbar/Navbar.css"
+import '/node_modules/primeflex/primeflex.css';
+import "../Navbar/Navbar.css";
 
 
 

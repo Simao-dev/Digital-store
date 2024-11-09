@@ -1,6 +1,6 @@
-import imagemProduto1 from '../../assets/carde.png'
-import imagemProduto2 from '../../assets/carde1.png'
-import '../ProductListing/ProductListing.css'
+import imagemProduto1 from '../../assets/carde.png';
+import imagemProduto2 from '../../assets/carde1.png';
+import '../ProductListing/ProductListing.css';
 import { Link } from 'react-router-dom';
 
 const Array = () =>{
@@ -81,5 +81,5 @@ const Array = () =>{
       </div>
   </div>
     );
-    };
+  };
 export default Array;
