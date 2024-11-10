@@ -1,4 +1,43 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+
 .Mainbuscar {
     display: flex;
     gap: 10px;
+
+}
+
+.Mainbuscar input{
+    width: 559px;
+    height: 60px;
+    border: none;
+    background-color: #8f8f8f2c;
+    border-radius: 8px 0 0 8px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.Mainbuscar button {
+    color: var(--dark-gray-2);
+    font-size: 24px;
+    border: none;
+    width: 60px;
+    height: 62px;
+    border-radius: 0 8px 8px 0;
+    background-color: #8f8f8f2c;
 }

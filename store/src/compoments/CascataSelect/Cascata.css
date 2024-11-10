@@ -1,0 +1,49 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.MainCascata {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: #f9f8fe;
+    gap: 900px;
+}
+
+.MainCascata ul {
+    list-style-type: none;
+    margin: 0;
+   
+
+}
+
+.MainCascata button {
+    width: 332px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.MenuCascata {
+    position: absolute;
+    top: 100%; /* Ajustar a posição vertical */
+    left: 1470px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1; /* Certifique-se que o z-index seja maior que outros elementos */
+}
+
