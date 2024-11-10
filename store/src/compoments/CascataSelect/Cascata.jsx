@@ -23,7 +23,7 @@ function CascadingMenu() {
 
   return (
     <div className="MainCascata">
-        <p>Resultados para “Tênis” - 389 produtos</p>
+        <p><bold>Resultados para “Tênis”</bold> - 389 produtos</p>
       <button onClick={toggleMenu}>
         {selectedOption} {isOpen ? '▲' : '▼'}
       </button>

@@ -18,7 +18,7 @@ const Colecao = () => {
                     <div className="CardFilho">
                         <img src={off} alt="" />
                         <h2>Novo drop Supreme</h2>
-                        <Link to="/produtos"><Button label="Comprar" /></Link>
+                        <Link to="/pedidos"><Button label="Comprar" /></Link>
                     </div>
                     <div className="CamImg">
                         <img src={camisa} alt="" />
@@ -28,7 +28,7 @@ const Colecao = () => {
                     <div className="CardFilho">
                         <img src={off} alt="" />
                         <h2>Coleção Adidas</h2>
-                        <Link to="/produtos"><Button label="Comprar" /></Link>
+                        <Link to="/pedidos"><Button label="Comprar" /></Link>
                     </div>
                     <div className="CamImg">
                         <img src={tenisA} alt="" />
@@ -38,7 +38,7 @@ const Colecao = () => {
                     <div className="CardFilho">
                         <img src={off} alt="" />
                         <h2>Novo Beats Bass</h2>
-                        <Link to="/produtos"><Button label="Comprar" /></Link>
+                        <Link to="/pedidos"><Button label="Comprar" /></Link>
                     </div>
                     <div className="CamImg">
                         <img src={fone} alt="" />

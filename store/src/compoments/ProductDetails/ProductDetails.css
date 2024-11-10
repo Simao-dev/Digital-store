@@ -17,18 +17,18 @@
 
 /* estilo informações / imagens */
 
-.Main {
+.MainP {
     background-color: #f9f8fe;
     padding: 50px
 }
 
-.Info {
+.InfoP {
     display: flex;
     justify-content: space-between;
     gap: 150px;
 }
 
-.Info h2 {
+.InfoP h2 {
     font-size: 65px;
 }
 

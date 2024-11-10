@@ -67,7 +67,7 @@ const Array = () =>{
       <div className="ProdFilho">
       {itens.map((itens) => (
           <div className="Container" key={itens.nome}>
-              <Link to="/produtos" className="LinkProd"><img src={itens.imagem} alt={itens.nome} /></Link>
+              <Link to="/pedidos" className="LinkProd"><img src={itens.imagem} alt={itens.nome} /></Link>
               <div>
                   <p className="ItemNome">{itens.nome}</p>
                   <p className="ItemTipo" >{itens.tipo}</p>

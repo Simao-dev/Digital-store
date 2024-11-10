@@ -15,19 +15,23 @@
     --white: #FFFFFF;
 }
 
-.Main {
+.Mainpr {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 900px;
+    background-color: #f9f8fe;
+    padding: 0;
 }
 
-.Filho {
+
+.Filhopr {
     font-size: 20px;
     color: var(--primary);
     text-decoration: none;
 }
 
-.Filho i {
+.Filhopr i {
     font-size: 15px;
     margin-left: 10px;
 }

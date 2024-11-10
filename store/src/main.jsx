@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Router, RouterProvider,} from "react-router-dom";
 import Categorias from './compoments/routes//categorias';
-import Pedidos from './compoments/routes//Pedidos';
+import MeusPedidos from './compoments/ProductDetails/ProductDetails.jsx';
 import Produtos from './compoments/ProductOptions/ProductOptions.jsx';
 import ErrorPage from './compoments/routes/Errorpage.jsx';
 import Home from './compoments/routes/Home.jsx';
@@ -30,7 +30,7 @@ const router = createBrowserRouter ([
       },
       {
         path: "/pedidos",
-        element: <Pedidos />
+        element: <MeusPedidos />
       },
       {
         path: "/options",

@@ -31,12 +31,9 @@
 .Container {
     display: flex;
     flex-direction: column;
+    padding: 45px;
 }
 
-.LinkProd {
-    width: 400px;
-    height: 410px;
-}
 
 .ItemNome {
     color: var(--light-gray);

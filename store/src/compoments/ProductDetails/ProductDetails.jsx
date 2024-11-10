@@ -12,8 +12,8 @@ import Vermais from "../VerMais/VerMais.jsx";
 const ProductDetails = () => {
     return (
         <div >
-            <div className="Main">
-                <div className= "Info">
+            <div className="MainP">
+                <div className= "InfoP">
                     <Carrossel />
                     <div className="ContAvaliacoes">
                         <div className="Avaliacoes">

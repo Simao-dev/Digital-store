@@ -17,10 +17,72 @@
 
 .Maincont {
     display: flex;
-    flex-direction: column;
 }
 
+.BordMain {
+    padding: 74px;
+    background-color: #f9f8fe;
+
+}
 .MainFiltro {
     width: 308px;
     height: 720px;
+    background-color: var(--white);
+}
+
+.IntFiltro {
+    padding: 25px 0;
+    margin: 25px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.Marka {
+    margin: 25px;
+}
+
+input[type="checkbox"] {
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--light-gray);
+    border-radius: 3px;
+    position: relative;
+}
+  
+input[type="checkbox"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary);
+}
+
+input[type="radio"] {
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--light-gray);
+    border-radius: 50%;
+    position: relative;
+}
+  
+input[type="radio"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--primary);
 }
