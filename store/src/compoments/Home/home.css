@@ -19,6 +19,7 @@
 .FilhoHome {
     display: flex;
     align-items: center;
+    background-color: #f9f8fe;
 }
 
 .ContHome {
