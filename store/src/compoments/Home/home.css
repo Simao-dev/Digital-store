@@ -15,9 +15,6 @@
     --white: #FFFFFF;
 }
 
-.MainHome {
-    background-color: var(--light-gray-3);
-}
 
 .FilhoHome {
     display: flex;
@@ -27,9 +24,10 @@
 .ContHome {
     position: absolute;
     width: 485px;
+    padding-left: 130px;
 }
 
-.Tex1Home {
+.Text1Home {
     color: var(--warning);
     font-weight: bold;
     font-size: 24px;
@@ -53,10 +51,6 @@
     border: none;
     border-radius: 8px;
     color: var(--white);
-}
-
-.HomeTenis {
-    width: 800px;
 }
 
 .HomeOrn {

@@ -1,3 +1,55 @@
-.HomeTenis {
-    width: 800px;
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
 }
+
+
+  .image-container  img {
+    width: 100%;
+  }
+  
+  .radio-overlay {
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+
+  }
+  
+  .radio-indicator {
+    display: block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: var(--dark-gray-3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .radio-indicator:hover {
+    background-color: var(--primary);
+  }
+  
+  input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  input[type="radio"]:checked + .radio-indicator {
+    background-color: var(--primary);
+  }
