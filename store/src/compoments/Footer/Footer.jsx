@@ -33,7 +33,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="Digital">
-                <p>@ 2022 Digital College</p>
+                <div className="DigitalFilho">
+                    <p>@ 2024 Digital College</p>
+                </div>
             </div>
         </>
     );

@@ -5,7 +5,7 @@ import off from '../../assets/off.png';
 import camisa from '../../assets/camisa.png';
 import fone from '../../assets/fone.png';
 import tenisA from '../../assets/tenisA.png';
-import "../ColecaoDestaque/ColecaoDestaque.css"
+import "../Section/Section.css"
 
 
 const Colecao = () => {

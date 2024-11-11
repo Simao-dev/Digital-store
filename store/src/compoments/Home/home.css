@@ -1,0 +1,107 @@
+:root {
+
+    --primary: #C92071;
+    --secondary: #B5B6F2;
+    --tertiary: #991956;
+    --error: #EE4266;
+    --success: #52CA76;
+    --warning: #F6AA1C;
+    --dark-gray: #1F1F1F;
+    --dark-gray-2: #474747;
+    --dark-gray-3: #666666;
+    --light-gray: #8F8F8F;
+    --light-gray-2: #CCCCCC;
+    --light-gray-3: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+.MainHome {
+    background-color: var(--light-gray-3);
+}
+
+.FilhoHome {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ContHome {
+    width: 485px;
+}
+
+.Tex1Home {
+    color: var(--warning);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ContHome h2 {
+    font-size: 64px;
+    margin: 0;
+}
+
+.Text2Home {
+    color: var(--dark-gray-2);
+    font-size: 24px;
+
+}
+
+.ButtonHome button {
+    background-color: var(--primary);
+    width: 240px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+}
+
+.HomeTenis {
+    width: 800px;
+}
+
+.HomeOrn {
+    margin-bottom: 320px;
+}
+
+.HomeProdu {
+    text-align: center;
+    padding: 100px 0 100px 0;
+    background-color: #f9f8fe;
+}
+
+.HomeOfert {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0 50px 0;
+}
+
+.MainJordan {
+    width: 596px;
+    height: 341px;
+
+}
+
+.text1Jordan {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.MainJordan h2 {
+    font-size: 50px;
+    color: var(--dark-gray-2);
+}
+
+.text2Jordan {
+    font-size: 24px;
+    color: var(--dark-gray-2);
+}
+
+.ButtonHome {
+    background-color: var(--primary);
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+}

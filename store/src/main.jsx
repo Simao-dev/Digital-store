@@ -6,8 +6,8 @@ import Categorias from './compoments/routes//categorias';
 import MeusPedidos from './compoments/ProductDetails/ProductDetails.jsx';
 import Produtos from './compoments/ProductOptions/ProductOptions.jsx';
 import ErrorPage from './compoments/routes/Errorpage.jsx';
-import Home from './compoments/routes/Home.jsx';
-import Options from './compoments/ProductOptions/ProductOptions.jsx'
+import Home from '../src/compoments/Home/Home.jsx';
+import Options from './compoments/ProductOptions/ProductOptions.jsx';
   
 
 const router = createBrowserRouter ([

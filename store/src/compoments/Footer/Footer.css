@@ -48,9 +48,14 @@
     background-color: var(--dark-gray);
     color: var(--white);
     text-align: center;
+    padding: 0 65px 0 65px;
 }
 
 .Digital p {
     margin: 0;
     padding: 20px;
+}
+
+.DigitalFilho {
+    border-top: 1px solid var(--light-gray);
 }
