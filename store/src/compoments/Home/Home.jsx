@@ -9,6 +9,7 @@ import tenisC from '../../assets/tenisC.png';
 import Array from '../ProductListing/ProductListing.jsx';
 import Vermais from '../VerMais/VerMais.jsx';
 import Colecao from '../Section/Section.jsx';
+import GaleriaDeImagem from '../GaleriaDeImagem/Galeria.jsx'
 import "../Home/home.css"
 const Home = () => {
 
@@ -25,10 +26,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <img className="HomeTenis" src={Tenis} alt="Tenis Nike" />
-                    </div>
-                    <div className="HomeOrn">
-                    <img src={Ornament} alt="" />
+                        <GaleriaDeImagem />
                     </div>
                 </div>
             </div>

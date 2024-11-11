@@ -2,7 +2,7 @@ import Imagem1 from "../../assets/GaleriaImg/image1.png"
 import Imagem2 from "../../assets/GaleriaImg/image2.png"
 import Imagem3 from "../../assets/GaleriaImg/image3.png"
 import Imagem4 from "../../assets/GaleriaImg/image4.png"
-
+import "../GaleriaDeImagem/Galeria.css"
 import React, { useState } from 'react';
 
 function GaleriaDeImagem() {
@@ -34,7 +34,7 @@ function GaleriaDeImagem() {
           </label>
         ))}
       </div>
-      <img src={images[currentImageIndex].url} alt={images[currentImageIndex].alt} />
+      <img className="HomeTenis" src={images[currentImageIndex].url} alt={images[currentImageIndex].alt} />
     </div>
   );
 }

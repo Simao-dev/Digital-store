@@ -21,12 +21,11 @@
 
 .FilhoHome {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
 }
 
 .ContHome {
+    position: absolute;
     width: 485px;
 }
 
