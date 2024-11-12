@@ -1,0 +1,10 @@
+.ErroPage {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ErroPage p {
+    font-size: 24px;
+    font-weight: bold;
+}

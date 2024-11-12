@@ -2,10 +2,10 @@ import App from './App.jsx'
 import React from 'react';
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Router, RouterProvider,} from "react-router-dom";
-import Categorias from './compoments/routes//categorias';
+import Categorias from './compoments/CategoriasPage/categorias.jsx';
 import MeusPedidos from './compoments/ProductDetails/ProductDetails.jsx';
 import Produtos from './compoments/ProductOptions/ProductOptions.jsx';
-import ErrorPage from './compoments/routes/Errorpage.jsx';
+import ErrorPage from './compoments/Erropage/Errorpage.jsx';
 import Home from '../src/compoments/Home/Home.jsx';
 import Options from './compoments/ProductOptions/ProductOptions.jsx';
   
